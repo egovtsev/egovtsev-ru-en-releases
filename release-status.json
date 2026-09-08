@@ -2,11 +2,11 @@
   "updated": "2026-09-08",
   "testflight": {
     "version": "0.1",
-    "build": 40,
+    "build": 41,
     "status": "internal_testing",
     "app_store_publication": "not_published",
     "installation": "TestFlight invitation or update",
-    "testing_focus": "Updated permission setup and startup recovery; fresh-install behavior is still being tested."
+    "testing_focus": "Shorter setup instructions and an explicit relaunch after stale permission checks; fresh-install recovery and signed relaunch remain under testing."
   },
   "direct_download": {
     "version": "0.1",
