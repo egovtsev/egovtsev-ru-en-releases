@@ -17,7 +17,11 @@
   "app_store": {
     "version": "0.1",
     "build": 43,
-    "status": "preparing_submission",
-    "automatic_release_after_approval": true
+    "status": "waiting_for_review",
+    "automatic_release_after_approval": true,
+    "submitted_at": "2026-09-08T22:11:00+03:00",
+    "price": "free",
+    "age_rating": "4+",
+    "selected_territories": 175
   }
 }
