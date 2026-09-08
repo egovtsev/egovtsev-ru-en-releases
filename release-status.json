@@ -2,16 +2,22 @@
   "updated": "2026-09-08",
   "testflight": {
     "version": "0.1",
-    "build": 41,
+    "build": 42,
     "status": "internal_testing",
     "app_store_publication": "not_published",
     "installation": "TestFlight invitation or update",
-    "testing_focus": "Shorter setup instructions and an explicit relaunch after stale permission checks; fresh-install recovery and signed relaunch remain under testing."
+    "testing_focus": "Owner confirmed build 42 installation and launch working."
   },
   "direct_download": {
     "version": "0.1",
     "build": 35,
     "url": "https://github.com/egovtsev/egovtsev-ru-en-releases/releases/download/build-35/egovtsev-ru-en-0.1-build-35.dmg",
     "sha256": "faf3450dbe7aac129c41e935bde6c311a381698508d3da1ef2f2b9a3783dcc8d"
+  },
+  "app_store": {
+    "version": "0.1",
+    "build": 43,
+    "status": "preparing_submission",
+    "automatic_release_after_approval": true
   }
 }
