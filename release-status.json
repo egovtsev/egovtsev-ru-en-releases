@@ -1,12 +1,16 @@
 {
-  "updated": "2026-09-08",
+  "updated": "2026-09-12",
   "testflight": {
     "version": "0.1",
-    "build": 42,
-    "status": "internal_testing",
+    "build": 45,
+    "status": "processed_availability_not_yet_verified",
     "app_store_publication": "not_published",
     "installation": "TestFlight invitation or update",
-    "testing_focus": "Owner confirmed build 42 installation and launch working."
+    "testing_focus": "Clipboard format regression fixed; 225 automated checks passed. Installation and physical typing on TestFlight build 45 remain to be verified.",
+    "uploaded_at": "2026-09-12T07:33:00+03:00",
+    "processing_completed": true,
+    "availability_verified": false,
+    "last_owner_verified_installed_build": 42
   },
   "direct_download": {
     "version": "0.1",
@@ -17,11 +21,13 @@
   "app_store": {
     "version": "0.1",
     "build": 43,
-    "status": "waiting_for_review",
+    "status": "rejected",
     "automatic_release_after_approval": true,
     "submitted_at": "2026-09-08T22:11:00+03:00",
     "price": "free",
     "age_rating": "4+",
-    "selected_territories": 175
+    "selected_territories": 175,
+    "reviewed_at": "2026-09-11",
+    "public_release_available": false
   }
 }
