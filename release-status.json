@@ -1,10 +1,10 @@
 {
-  "updated": "2026-09-12",
+  "updated": "2026-09-19",
   "testflight": {
     "version": "0.1",
     "build": 45,
     "status": "processed_availability_not_yet_verified",
-    "app_store_publication": "not_published",
+    "app_store_publication": "published",
     "installation": "TestFlight invitation or update",
     "testing_focus": "Clipboard format regression fixed; 225 automated checks passed. Installation and physical typing on TestFlight build 45 remain to be verified.",
     "uploaded_at": "2026-09-12T07:33:00+03:00",
@@ -16,18 +16,19 @@
     "version": "0.1",
     "build": 35,
     "url": "https://github.com/egovtsev/egovtsev-ru-en-releases/releases/download/build-35/egovtsev-ru-en-0.1-build-35.dmg",
-    "sha256": "faf3450dbe7aac129c41e935bde6c311a381698508d3da1ef2f2b9a3783dcc8d"
+    "sha256": "faf3450dbe7aac129c41e935bde6c311a381698508d3da1ef2f2b9a3783dcc8d",
+    "status": "historical_archive"
   },
   "app_store": {
     "version": "0.1",
-    "build": 43,
-    "status": "rejected",
-    "automatic_release_after_approval": true,
-    "submitted_at": "2026-09-08T22:11:00+03:00",
+    "build": 45,
+    "status": "ready_for_distribution",
     "price": "free",
     "age_rating": "4+",
-    "selected_territories": 175,
-    "reviewed_at": "2026-09-11",
-    "public_release_available": false
+    "public_release_available": true,
+    "url": "https://apps.apple.com/app/id6809803122",
+    "verified_at": "2026-09-19",
+    "minimum_macos": "26.0",
+    "architecture": "Apple Silicon"
   }
 }
