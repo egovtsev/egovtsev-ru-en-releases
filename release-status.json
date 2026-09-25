@@ -1,12 +1,12 @@
 {
-  "updated": "2026-09-19",
+  "updated": "2026-09-25",
   "testflight": {
     "version": "0.1",
     "build": 45,
-    "status": "processed_availability_not_yet_verified",
+    "status": "historical_upload_record",
     "app_store_publication": "published",
-    "installation": "TestFlight invitation or update",
-    "testing_focus": "Clipboard format regression fixed; 225 automated checks passed. Installation and physical typing on TestFlight build 45 remain to be verified.",
+    "installation": "Historical TestFlight record; current users install via App Store",
+    "testing_focus": "Historical record only. Fresh App Store installation, permissions, physical typing and update flow require a separate user test.",
     "uploaded_at": "2026-09-12T07:33:00+03:00",
     "processing_completed": true,
     "availability_verified": false,
@@ -17,7 +17,8 @@
     "build": 35,
     "url": "https://github.com/egovtsev/egovtsev-ru-en-releases/releases/download/build-35/egovtsev-ru-en-0.1-build-35.dmg",
     "sha256": "faf3450dbe7aac129c41e935bde6c311a381698508d3da1ef2f2b9a3783dcc8d",
-    "status": "historical_archive"
+    "status": "historical_archive",
+    "recommended": false
   },
   "app_store": {
     "version": "0.1",
@@ -29,6 +30,8 @@
     "url": "https://apps.apple.com/app/id6809803122",
     "verified_at": "2026-09-19",
     "minimum_macos": "26.0",
-    "architecture": "Apple Silicon"
-  }
+    "architecture": "Apple Silicon",
+    "public_listing_verified_at": "2026-09-25"
+  },
+  "primary_distribution": "app_store"
 }
