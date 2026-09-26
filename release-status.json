@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-25",
+  "updated": "2026-09-26",
   "testflight": {
     "version": "0.1",
     "build": 45,
@@ -33,5 +33,14 @@
     "architecture": "Apple Silicon",
     "public_listing_verified_at": "2026-09-25"
   },
-  "primary_distribution": "app_store"
+  "primary_distribution": "app_store",
+  "prepared_release": {
+    "version": "0.1.1",
+    "build": 48,
+    "status": "signed_package_prepared",
+    "uploaded_to_apple": false,
+    "available_in_app_store": false,
+    "sha256": "7c13370ac774a2f65fc9d00e59ee6179cce54b6ee3c4434c47e367efec4b5d03",
+    "validation": "Local build, automated tests, signatures and unpacked package permissions passed. Transporter recognizes package. Apple server validation and physical typing on signed build remain pending."
+  }
 }
