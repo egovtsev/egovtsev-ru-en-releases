@@ -1,13 +1,13 @@
 {
   "updated": "2026-09-26",
   "testflight": {
-    "version": "0.1",
-    "build": 45,
-    "status": "historical_upload_record",
-    "app_store_publication": "published",
-    "installation": "Historical TestFlight record; current users install via App Store",
-    "testing_focus": "Historical record only. Fresh App Store installation, permissions, physical typing and update flow require a separate user test.",
-    "uploaded_at": "2026-09-12T07:33:00+03:00",
+    "version": "0.1.1",
+    "build": 51,
+    "status": "ready_for_internal_testing",
+    "app_store_publication": "waiting_for_review",
+    "installation": "App Store remains primary; build 51 awaits review",
+    "testing_focus": "Physical typing and Option undo; do not confuse local tests with TestFlight verification",
+    "uploaded_at": "2026-09-26T20:21:00+03:00",
     "processing_completed": true,
     "availability_verified": false,
     "last_owner_verified_installed_build": 42
@@ -36,11 +36,11 @@
   "primary_distribution": "app_store",
   "prepared_release": {
     "version": "0.1.1",
-    "build": 48,
-    "status": "signed_package_prepared",
-    "uploaded_to_apple": false,
+    "build": 51,
+    "status": "waiting_for_review",
+    "uploaded_to_apple": true,
     "available_in_app_store": false,
-    "sha256": "7c13370ac774a2f65fc9d00e59ee6179cce54b6ee3c4434c47e367efec4b5d03",
-    "validation": "Local build, automated tests, signatures and unpacked package permissions passed. Transporter recognizes package. Apple server validation and physical typing on signed build remain pending."
+    "sha256": "ca99dfadc80369255bb77afad2272bb897eeb83600f5da47e1f55a7e7ecb8fc6",
+    "validation": "Apple processed the upload and accepted the App Review submission. Automated tests passed; local pause/resume and statistics observed. Full physical typing and undo test not separately confirmed."
   }
 }
