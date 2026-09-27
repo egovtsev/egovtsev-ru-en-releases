@@ -1,11 +1,11 @@
 {
-  "updated": "2026-09-26",
+  "updated": "2026-09-27",
   "testflight": {
     "version": "0.1.1",
     "build": 51,
     "status": "ready_for_internal_testing",
-    "app_store_publication": "waiting_for_review",
-    "installation": "App Store remains primary; build 51 awaits review",
+    "app_store_publication": "released",
+    "installation": "Version 0.1.1 is publicly available through App Store",
     "testing_focus": "Physical typing and Option undo; do not confuse local tests with TestFlight verification",
     "uploaded_at": "2026-09-26T20:21:00+03:00",
     "processing_completed": true,
@@ -21,26 +21,27 @@
     "recommended": false
   },
   "app_store": {
-    "version": "0.1",
-    "build": 45,
+    "version": "0.1.1",
+    "build": 51,
     "status": "ready_for_distribution",
     "price": "free",
     "age_rating": "4+",
     "public_release_available": true,
     "url": "https://apps.apple.com/app/id6809803122",
-    "verified_at": "2026-09-19",
+    "verified_at": "2026-09-27",
     "minimum_macos": "26.0",
     "architecture": "Apple Silicon",
-    "public_listing_verified_at": "2026-09-25"
+    "public_listing_verified_at": "2026-09-27"
   },
   "primary_distribution": "app_store",
   "prepared_release": {
     "version": "0.1.1",
     "build": 51,
-    "status": "waiting_for_review",
+    "status": "released",
     "uploaded_to_apple": true,
-    "available_in_app_store": false,
+    "available_in_app_store": true,
     "sha256": "ca99dfadc80369255bb77afad2272bb897eeb83600f5da47e1f55a7e7ecb8fc6",
-    "validation": "Apple processed the upload and accepted the App Review submission. Automated tests passed; local pause/resume and statistics observed. Full physical typing and undo test not separately confirmed."
+    "validation": "Apple processed the upload and accepted the App Review submission. Automated tests passed; local pause/resume and statistics observed. Full physical typing and undo test not separately confirmed.",
+    "public_listing_verified_at": "2026-09-27"
   }
 }
